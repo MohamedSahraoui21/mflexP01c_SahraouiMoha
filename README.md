@@ -32,10 +32,10 @@ Este proyecto es una elegante Galería Fotográfica desarrollada con HTML y CSS 
 ## Construido con
  🌐 HTML5
 
-  ![Ejemplo de Imagen](img/HTML5_logo_and_wordmark.svg.png)
+  ![Ejemplo de Imagen](mflexP01c_SahraouiMoha/img/HTML5_logo_and_wordmark.svg.png)
 
  🎨 CSS3 (Flex)
-  ![Ejemplo de Imagen](img/CSS3_logo.svg.png)
+  ![Ejemplo de Imagen](mflexP01c_SahraouiMoha/img/CSS3_logo.svg.png)
 
 
  ## Versionado  :open_file_folder:
