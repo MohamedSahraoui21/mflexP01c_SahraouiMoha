@@ -1,0 +1,138 @@
+/* Establece el modelo de caja para todos los elementos. */
+* {
+    box-sizing: border-box;
+}
+
+/* Establece márgenes y fondo para el cuerpo y algunos encabezados. */
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 25px;
+    background-color: #03a698;
+}
+
+/* Estiliza el encabezado con el id 'div1'. */
+#div1 {
+    text-align: center;
+    background-color: #03a698;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+                   /* nav */
+
+/* Estilos para la barra de navegación. */
+nav {
+    top: 0;
+    position: sticky;
+    padding: 10px;
+    margin: 55px 20px 0px 0;
+    font-family: Dhurjati;
+    float: left;
+    background-color: #152620;
+    color: #D9D8D7;
+    border-radius: 10px;
+    
+}
+
+/* Estilos para los elementos de la barra de navegación. */
+nav li {
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    font-size: 1.2vw;
+}
+
+/* Estilo cuando se pasa el ratón sobre los elementos de la barra de navegación. */
+nav li:hover {
+    text-decoration: underline #03a698;
+    transform: scale(1.1);
+}
+
+                              /* main */
+
+/* Estilos para la sección principal. */
+main {
+    background-color: #03a698;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* Estilos para las secciones 'arriba' y 'abajo' dentro de la sección principal. */
+.arriba,
+.abajo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: #D9D8D7;
+}
+
+/* Estilos para los elementos dentro de la sección principal. */
+main div {
+    background-color: #152620;
+    border: 1px solid #D9D8D7;
+    padding: 1em;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Estilos para las imágenes dentro de la sección principal. */
+main img {
+    height: 50%;
+    margin-bottom: 10px;
+}
+
+/* Estilos para los párrafos dentro de la sección principal. */
+.parrafo {
+    color: #D9D8D7;
+    font-weight: bold;
+    background-color: #03a698;
+}
+
+                              /* footer */
+
+/* Estilos para el pie de página. */
+footer {
+    background-color: #152620;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-family: Dhurjati;
+    font-size: large;
+    font-weight: bold;
+    color: #D9D8D7;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos para el texto de derechos de autor en el pie de página. */
+#copyright {
+    text-align: center;
+    margin-top: 10px;
+    background-color: #152620;
+}
+
+/* Estilos para los elementos en línea en el pie de página, como redes sociales. */
+#redes {
+    display: flex;
+    align-items: center;
+    color: #D9D8D7;
+}
+
+/* Estilos para los enlaces de redes sociales en el pie de página. */
+#redes a {
+    margin-right: 10px;
+}
+
+/* Estilos para las imágenes de redes sociales en el pie de página. */
+#redes img {
+    width: 30px;
+    height: auto;
+}
