@@ -1,4 +1,4 @@
-# Proyecto Flex :computer:
+# MaquetacionFlex_Practica01c :computer:
 
 ![Flex Logo](mflexP01c_SahraouiMoha/img/flex.png)
 
